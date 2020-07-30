@@ -1,0 +1,11 @@
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.exe
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.deps.json
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.runtimeconfig.json
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.runtimeconfig.dev.json
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.dll
+C:\projects\bot\ChatBot\ChatBot\bin\Debug\netcoreapp3.1\ChatBot.pdb
+C:\projects\bot\ChatBot\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.csprojAssemblyReference.cache
+C:\projects\bot\ChatBot\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.AssemblyInfoInputs.cache
+C:\projects\bot\ChatBot\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.AssemblyInfo.cs
+C:\projects\bot\ChatBot\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.dll
+C:\projects\bot\ChatBot\ChatBot\obj\Debug\netcoreapp3.1\ChatBot.pdb

@@ -6,7 +6,9 @@ namespace ChatBot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Bot jarvis = new Bot();
+            jarvis.Name = "Jarvis";
+            jarvis.Greetings();
         }
     }
 }
