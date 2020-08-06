@@ -55,8 +55,13 @@ namespace botWPF
               };
             bot.StartReceiving();
 
-            //btnSendMsg.Click += delegate { SendMsg(); };
+            btnSendMsg.Click += delegate { SendMsg(); };
 
+        }
+
+        private void SendMsg()
+        {
+            throw new NotImplementedException();
         }
     }
 }
