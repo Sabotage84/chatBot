@@ -8,9 +8,16 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnSendMsg" Content="Button" HorizontalAlignment="Left" Margin="267,389,0,0" VerticalAlignment="Top" Width="75"/>
-        <ListBox x:Name="userList" HorizontalAlignment="Left" Height="353" Margin="23,32,0,0" VerticalAlignment="Top" Width="208"/>
+        <ListBox x:Name="userList" HorizontalAlignment="Left" Height="353" Margin="23,32,0,0"           
+                 VerticalAlignment="Top" Width="208">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                    <TextBlock Text="{Binding Nick}"></TextBlock>
+            </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
         <ListBox HorizontalAlignment="Left" Height="299" Margin="267,32,0,0" VerticalAlignment="Top" Width="498"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="267,349,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="498"/>
+        <TextBox x:Name="txtBxSendMsg" HorizontalAlignment="Left" Height="23" Margin="267,349,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="498"/>
 
     </Grid>
 </Window>

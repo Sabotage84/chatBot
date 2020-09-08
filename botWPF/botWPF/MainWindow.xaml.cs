@@ -61,7 +61,15 @@ namespace botWPF
 
         private void SendMsg()
         {
-            throw new NotImplementedException();
+            var concreteUser = Users[Users.IndexOf(userList.SelectedItem as TelegramUser)];
+            string responseMsg = $"Support: {txtBxSendMsg.Text}";
+            concreteUser.Messages.Add(responseMsg);
+
+            bot.SendTextMessageAsync(concreteUser.Id, txtBxSendMsg.Text);
+            string logText = $"{DateTime.Now}: >> {concreteUser.Id} {concreteUser.Nick} {responseMsg} \n";
+            File.AppendAllText("data.log", logText);
+
+            txtBxSendMsg.Text = string.Empty;
         }
     }
 }
